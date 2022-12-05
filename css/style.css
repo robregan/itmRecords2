@@ -717,9 +717,18 @@ footer {
 }
 footer .footer-content {
     display: flex;
-
-    /* align-items: center; */
-    text-align: center;
+    
+    justify-content: space-evenly;
+    text-align:left;
+}
+.footer-content img {
+    margin-right: 5.8em;
+    /* padding-bottom: 10px; */
+}
+.footer-content p {
+ color: white;
+ font-family: 'Abril Fatface', cursive !important;
+ font-size: .8em;
 }
 footer .social-icon li {
     float: left;
@@ -727,20 +736,21 @@ footer .social-icon li {
     list-style: none;
 }
 footer .social-icon li i.fa {
-    color: rgba(236, 240, 241, 0.4);
+    color: rgba(236, 240, 241, 1);
+   
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
 footer .social-icon li:hover i.fa {
-    color: rgba(236, 240, 241, 1);
+    color: rgba(236, 240, 241, 0.4);
 }
 footer .social-icon {
     order: 1;
     margin-right: auto;
     margin-bottom: 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 footer .copyright {order: 2;}
 footer a {
@@ -785,8 +795,8 @@ footer a:hover, footer a:focus {
 }
 @media screen and (max-width: 1100px) {
     .footer-logo{
-        height: 40%;
-        width: 40%;
+        height: 50%;
+        width: 50%;
     }
 }
 /* ================================= */
@@ -799,10 +809,15 @@ footer a:hover, footer a:focus {
     font-weight: bold;
     
 }
+header h1{
+    font-family: 'Abril Fatface', cursive !important;
+}
 @media only screen and (max-width: 1036px) {
-    header .logo img {
-        width: 20%;
-        height: auto;
+     .footer-logo {
+        width: 85%;
+        height: 4em;
+        display: flex;
+        padding-left: 4em;
     }
     header {
         height: auto;
