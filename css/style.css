@@ -793,6 +793,17 @@ footer a:hover, footer a:focus {
 .up-btn i {
     color: #fff;
 }
+.mikey{
+    font-size: 1.3em;
+}
+.newL{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.addy{
+    padding-top: 50px;
+}
 @media screen and (max-width: 1100px) {
     .footer-logo{
         height: 50%;
